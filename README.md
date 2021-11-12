@@ -1,1 +1,1 @@
-# Twitter_clone_project
+# Twitter Clone
