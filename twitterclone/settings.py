@@ -57,7 +57,7 @@ TEMPLATES = [
         },
     },
 ]
-WSGI_APPLICATION = 'twitter_clone.wsgi.application'
+WSGI_APPLICATION = 'twitterclone.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 DATABASES = {
@@ -98,9 +98,9 @@ STATICFILES_DIRS = [
     # '/var/www/static/',
 ]
 cloudinary.config(
-    cloud_name="jtorq",
-    api_key="811547563123483",
-    api_secret="qOambwXF732Ue2NS-UD3eNd3adg",
+    cloud_name="dg2zjpoxz",
+    api_key="755917427727987",
+    api_secret="B_dvTa6AEt36BknxA4oIsWvU5aY",
     secure=True
 )
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
