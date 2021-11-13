@@ -129,6 +129,7 @@ h1 {
   outline: none;
   border: 1%;
   border-bottom: 1px solid rgb(153, 95, 95);
+  margin-bottom: 6%;
 }
 textarea {
   font-size: 15px;

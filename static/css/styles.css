@@ -19,6 +19,7 @@ body {
 }
 .posts li .name_body .name {
   font-weight: bold;
+  width: auto;
 }
 .posts li .name_body .datetime {
   color: black;
@@ -32,7 +33,7 @@ posts
 }
 @media screen and (max-width: 500px) {
   .posts li .name_body .name {
-    font-size: 40px;
+    font-size: 17px;
   }
 }
 /*
@@ -91,6 +92,10 @@ body {
   border-left: 1px solid rgba(19, 154, 196, 0.5);
   border-right: 1px solid rgba(18, 194, 218, 0.5);
 }
+
+.b1 {
+  display: flex;
+}
 /*
 Post
 */
@@ -129,6 +134,7 @@ h1 {
   outline: none;
   border: 1%;
   border-bottom: 1px solid rgb(153, 95, 95);
+  margin-bottom: 6%;
 }
 textarea {
   font-size: 15px;
@@ -187,6 +193,7 @@ textarea {
 }
 .posts li .name_body .name {
   font-weight: bold;
+  width: auto;
 }
 .post-border {
   border-radius: 10px;
@@ -200,6 +207,12 @@ textarea {
 @media screen and (max-width: 500px) {
   .posts li .name_body {
     font-size: 20px;
+  }
+  .b1 {
+    margin-bottom: -1px;
+    margin-top: 2%;
+    margin-right: -15%;
+    display: inline-flex;
   }
 }
 .name-input {
@@ -241,7 +254,7 @@ textarea {
   border-radius: 10px;
   background-color: #209bf0 !important;
   width: 80px;
-  height: 35px;
+
   color: rgb(227, 240, 224);
   font-weight: bold;
   border: none;
@@ -251,6 +264,7 @@ textarea {
   padding: 8px;
   font-size: 15px;
   margin-top: 20px;
+  padding-left: 6%;
 }
 .cancel-anchor {
   color: #15202b;
@@ -311,7 +325,6 @@ h1 {
   }
 }
 .flex {
-  display: flex;
   justify-content: space-between;
   width: 94%;
 }
@@ -327,5 +340,7 @@ h1 {
   margin-bottom: 10px;
 }
 .b1 {
+  margin-left: 49%;
   margin-bottom: 30px;
+  display: flex;
 }

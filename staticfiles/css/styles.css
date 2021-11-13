@@ -30,11 +30,18 @@ posts
   padding: 0;
   padding: 17px;
 }
-@media screen and (max-width: 500px) {
-  .posts li .name_body .name {
-    font-size: 40px;
-  }
+
+.post_form textarea {
+  width: 89%;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  border: 1%;
+  border-bottom: 1px solid rgb(153, 95, 95);
+  margin-bottom: 6%;
 }
+
 /*
 form
 */
@@ -121,21 +128,14 @@ h1 {
   border-top: 1px solid rgba(204, 204, 204, 0.5);
   color: #9c5b5b;
 }
-.post_form textarea {
-  width: 89%;
-  height: 80px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  outline: none;
-  border: 1%;
-  border-bottom: 1px solid rgb(153, 95, 95);
-}
+
 textarea {
   font-size: 15px;
   background-color: #fff;
   color: black;
   font-family: Helvetica, sans-serif;
   resize: none;
+  margin-bottom: 6%;
 }
 @media screen and (max-width: 1200px) {
 }
@@ -196,6 +196,12 @@ textarea {
   max-height: 100%;
   margin-right: 1px;
   margin-top: 5px;
+}
+.post_form .textarea {
+  margin-bottom: 6%;
+  width: 89%;
+  height: 80px;
+  padding: 10px;
 }
 @media screen and (max-width: 500px) {
   .posts li .name_body {
