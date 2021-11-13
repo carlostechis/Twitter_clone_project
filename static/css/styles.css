@@ -214,6 +214,17 @@ textarea {
     margin-right: -15%;
     display: inline-flex;
   }
+  #tweet-button {
+    border-radius: 10 px;
+    background-color: #209bf0;
+    width: 78 px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    height: 30 px;
+    margin-left: 72%;
+    margin-top: 5%;
+  }
 }
 .name-input {
   width: 86.3% !important;
@@ -229,6 +240,7 @@ textarea {
   font-weight: bold;
   border: none;
   height: 30px;
+  margin-left: 31%;
 }
 #tweet-button:hover {
   background-color: #1e92dc;
